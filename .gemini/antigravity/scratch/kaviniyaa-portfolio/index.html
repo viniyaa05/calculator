@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaviniyaa A S | AI & ML Enthusiast | Computer Science Engineer</title>
+  <meta name="description" content="Portfolio of Kaviniyaa A S - 3rd Year Computer Science student passionate about AI, Machine Learning, Multi-Agent systems (CrewAI), and Software Development.">
+  <meta name="keywords" content="Kaviniyaa, AI, Machine Learning, Deep Learning, CrewAI, Python, Portfolio, Computer Science, ISRO Hackathon, NPTEL Star">
+  <meta name="author" content="Kaviniyaa A S">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kaviniyaa A S | AI & ML Portfolio">
+  <meta property="og:description" content="Building, learning, and experimenting with technology to turn ideas into meaningful solutions.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Dynamic Lighting Mesh -->
+  <div class="ambient-mesh" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ======================================================================== -->
+  <!-- Navigation Bar                                                           -->
+  <!-- ======================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#hero" class="nav-brand">
+        <div class="nav-logo-badge">K</div>
+        <span>Kaviniyaa<span style="color: var(--accent-cyan);">.dev</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Honors</a></li>
+        <li><a href="#certifications" class="nav-link">Certificates</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- GitHub Profile Direct Link -->
+        <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="display: inline-flex;" title="GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+          <span class="desktop-only">GitHub</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======================================================================== -->
+  <!-- Hero Section                                                             -->
+  <!-- ======================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <!-- Hero Left: Bio & Call to Actions -->
+      <div>
+        <div class="hero-status-pill">
+          <span class="pulse-dot"></span>
+          <span>Currently Building: <strong style="color: var(--accent-cyan);">Job Resume Analyser</strong></span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Kaviniyaa</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Computer Science Student <span style="color: var(--accent-cyan);">|</span> AI &amp; ML Enthusiast
+        </p>
+
+        <p class="hero-tagline">
+          Building, learning, and experimenting with technology to turn ideas into meaningful solutions. Focused on autonomous multi-agent systems, deep learning models, and efficient software architecture.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-rocket"></i> View My Projects
+          </a>
+          <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <i class="fa-solid fa-file-pdf"></i> View Resume
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fa-solid fa-paper-plane"></i> Get In Touch
+          </a>
+          <a href="https://www.linkedin.com/in/kaviniyaa-satish-414a4b320" target="_blank" rel="noopener noreferrer" class="btn btn-purple">
+            <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+          </a>
+        </div>
+
+        <div class="hero-social-links">
+          <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">FIND ME ON:</span>
+          <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kaviniyaa-satish-414a4b320" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="#contact" class="social-icon-btn" aria-label="Email Me">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Right: Interactive Terminal Simulation -->
+      <div>
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="terminal-dot dot-red"></span>
+              <span class="terminal-dot dot-yellow"></span>
+              <span class="terminal-dot dot-green"></span>
+            </div>
+            <span class="terminal-title">kaviniyaa@arch-ai: ~/portfolio</span>
+            <span style="color: #64748b; font-size: 0.75rem;">bash</span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line">
+              <span class="t-prompt">$</span>
+              <span class="t-cmd" id="terminalDynamicText">python -m crewai.event_orchestrator</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-comment"># Initializing multi-agent pipeline...</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-success">✔</span>
+              <span>Agents loaded: [Planner, Researcher, Checker]</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-success">✔</span>
+              <span>Model: Foundations of Deep Learning (IISc Bangalore)</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-amber">★</span>
+              <span>National Honors: ISRO Hackathon &amp; NPTEL Discipline Star</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-prompt">$</span>
+              <span class="t-cmd">whoami</span>
+            </div>
+            <div class="terminal-line">
+              <span class="t-accent">&gt; Kaviniyaa A S — National Engg College (CGPA: 8.02)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats Ribbon -->
+    <div class="container">
+      <div class="stats-ribbon">
+        <div class="stat-item card-glass">
+          <div class="stat-num gradient-cyan" style="color: var(--accent-cyan);">8.02</div>
+          <div class="stat-label">CGPA (B.E. CSE)</div>
+        </div>
+        <div class="stat-item card-glass">
+          <div class="stat-num gradient-accent">5+</div>
+          <div class="stat-label">Core Projects</div>
+        </div>
+        <div class="stat-item card-glass">
+          <div class="stat-num gradient-amber">2</div>
+          <div class="stat-label">National Recognitions</div>
+        </div>
+        <div class="stat-item card-glass">
+          <div class="stat-num" style="color: var(--accent-purple);">2x</div>
+          <div class="stat-label">NPTEL Elite Certs</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- About Me Section                                                         -->
+  <!-- ======================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-user-astronaut"></i> Story &amp; Background</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-description">Driven by curiosity, continuous learning, and turning conceptual ideas into impactful software.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Bio Card -->
+        <div class="card-glass about-text-card">
+          <h3 style="font-size: 1.45rem; margin-bottom: 1.25rem;">
+            Engineering with <span class="gradient-accent">Purpose &amp; Intelligence</span>
+          </h3>
+          <p>
+            I’m a <strong>3rd-year Computer Science student</strong> passionate about <strong>AI, Machine Learning, and software development</strong>. I love turning ideas into practical projects and exploring technology to solve real-world challenges.
+          </p>
+          <div class="about-highlight-box">
+            "Driven by curiosity, continuous learning, and the goal of building meaningful, innovative solutions through code."
+          </div>
+          <p>
+            With experience in <strong>Python, Java, C++, Machine Learning, and NLP</strong>, I’m currently expanding my skills in <strong>React, DSA, and emerging AI technologies</strong> like autonomous multi-agent systems.
+          </p>
+          <div style="margin-top: 1.75rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <span class="badge badge-cyan"><i class="fa-solid fa-brain"></i> AI &amp; ML</span>
+            <span class="badge badge-purple"><i class="fa-solid fa-network-wired"></i> CrewAI Multi-Agent</span>
+            <span class="badge badge-green"><i class="fa-solid fa-code"></i> DSA &amp; Systems</span>
+          </div>
+        </div>
+
+        <!-- Education & Academic Milestones -->
+        <div class="card-glass education-card">
+          <h3 style="font-size: 1.45rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.6rem;">
+            <i class="fa-solid fa-graduation-cap" style="color: var(--accent-cyan);"></i> Education &amp; Community
+          </h3>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div style="font-size: 0.825rem; color: var(--accent-cyan); font-weight: 700; margin-bottom: 0.25rem;">2024 — 2028 (Present)</div>
+            <h4 style="font-size: 1.15rem; margin-bottom: 0.25rem;">B.E. — Computer Science and Engineering</h4>
+            <div style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0.5rem;">National Engineering College</div>
+            <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+              <span class="badge badge-amber" style="font-size: 0.75rem;">CGPA: 8.02</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Strong academic focus in problem solving &amp; AI</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div style="font-size: 0.825rem; color: var(--accent-purple); font-weight: 700; margin-bottom: 0.25rem;">Professional Affiliation</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Member — CSI (Computer Society of India)</h4>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">
+              Active member of CSI Association at National Engineering College. Participated in inter-college paper presentations, showcasing technical concepts and research topics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- Skills Matrix Section                                                    -->
+  <!-- ======================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-microchip"></i> Capabilities</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Stack</span></h2>
+        <p class="section-description">A balanced foundation across algorithmic programming, deep learning, agentic workflows, and modern web development.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Category 1: AI / ML & Emerging -->
+        <div class="card-glass skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap cyan">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div>
+              <h3 class="skill-cat-title">AI &amp; Machine Learning</h3>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Intelligent Systems</span>
+            </div>
+          </div>
+          <div class="skill-pill-container">
+            <span class="skill-pill"><i class="fa-solid fa-robot" style="color: var(--accent-cyan);"></i> CrewAI</span>
+            <span class="skill-pill"><i class="fa-solid fa-network-wired" style="color: var(--accent-purple);"></i> Multi-Agent Systems</span>
+            <span class="skill-pill"><i class="fa-solid fa-chart-line" style="color: var(--accent-green);"></i> Deep Learning</span>
+            <span class="skill-pill">Machine Learning</span>
+            <span class="skill-pill">Natural Language Processing (NLP)</span>
+            <span class="skill-pill">Generative AI</span>
+            <span class="skill-pill">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Programming & Algorithms -->
+        <div class="card-glass skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap purple">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div>
+              <h3 class="skill-cat-title">Programming &amp; Core</h3>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Languages &amp; Data</span>
+            </div>
+          </div>
+          <div class="skill-pill-container">
+            <span class="skill-pill"><i class="fa-brands fa-python" style="color: #38bdf8;"></i> Python</span>
+            <span class="skill-pill"><i class="fa-solid fa-terminal" style="color: #60a5fa;"></i> C++</span>
+            <span class="skill-pill"><i class="fa-brands fa-java" style="color: #f97316;"></i> Java</span>
+            <span class="skill-pill">C Programming</span>
+            <span class="skill-pill"><i class="fa-solid fa-database" style="color: #f59e0b;"></i> SQL</span>
+            <span class="skill-pill">Data Structures &amp; Algorithms</span>
+            <span class="skill-pill">OOP Architecture</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Web & Frontend -->
+        <div class="card-glass skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap amber">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div>
+              <h3 class="skill-cat-title">Web &amp; Visualization</h3>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Interfaces &amp; UI</span>
+            </div>
+          </div>
+          <div class="skill-pill-container">
+            <span class="skill-pill"><i class="fa-brands fa-react" style="color: #61dafb;"></i> React (Expanding)</span>
+            <span class="skill-pill"><i class="fa-brands fa-html5" style="color: #ea580c;"></i> HTML5</span>
+            <span class="skill-pill"><i class="fa-brands fa-css3-alt" style="color: #0284c7;"></i> CSS3 / Modern UI</span>
+            <span class="skill-pill"><i class="fa-solid fa-chart-pie" style="color: #10b981;"></i> Data Visualization</span>
+            <span class="skill-pill">Responsive Design</span>
+            <span class="skill-pill">Glassmorphism UI</span>
+          </div>
+        </div>
+
+        <!-- Category 4: Tools & Professional -->
+        <div class="card-glass skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-icon-wrap green">
+              <i class="fa-solid fa-toolbox"></i>
+            </div>
+            <div>
+              <h3 class="skill-cat-title">Tools &amp; Teamwork</h3>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Workflow &amp; Collaboration</span>
+            </div>
+          </div>
+          <div class="skill-pill-container">
+            <span class="skill-pill"><i class="fa-brands fa-git-alt" style="color: #f43f5e;"></i> Git &amp; GitHub</span>
+            <span class="skill-pill"><i class="fa-solid fa-users" style="color: var(--accent-cyan);"></i> Team Collaboration</span>
+            <span class="skill-pill"><i class="fa-solid fa-magnifying-glass" style="color: var(--accent-purple);"></i> Technical Research</span>
+            <span class="skill-pill">Problem Solving</span>
+            <span class="skill-pill">Paper Presentation</span>
+            <span class="skill-pill">CSI Community</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- Featured Projects Section                                                -->
+  <!-- ======================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-cubes"></i> Portfolio Works</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-description">Practical applications spanning multi-agent collaboration, intelligent resume parsing, deep learning, and systems design.</p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="project-filter-bar">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai">AI &amp; Machine Learning</button>
+        <button class="filter-btn" data-filter="agents">Multi-Agent (CrewAI)</button>
+        <button class="filter-btn" data-filter="software">Software &amp; Systems</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projectsContainer">
+
+        <!-- Project 1: Job Resume Analyser (Active Featured) -->
+        <div class="card-glass project-card featured" data-category="ai software">
+          <div class="project-card-header">
+            <div class="project-top-row">
+              <div class="project-icon-box" style="color: var(--accent-cyan); border-color: var(--border-glow);">
+                <i class="fa-solid fa-file-waveform"></i>
+              </div>
+              <span class="badge badge-green">
+                <span class="pulse-dot"></span> In Active Development
+              </span>
+            </div>
+            <h3 class="project-title">Job Resume Analyser</h3>
+            <p class="project-desc">
+              An intelligent AI-assisted resume parser and job description matcher. Leverages Natural Language Processing (NLP) to extract skills, evaluate qualification alignment, detect keyword gaps, and deliver actionable improvement insights for candidates.
+            </p>
+            <div class="project-tech-tags">
+              <span class="badge-tech">Python</span>
+              <span class="badge-tech">NLP</span>
+              <span class="badge-tech">Machine Learning</span>
+              <span class="badge-tech">Data Extraction</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <i class="fa-brands fa-github"></i> Repository on GitHub
+            </a>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">viniyaa05</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Multi-Agent Event Scheduler -->
+        <div class="card-glass project-card" data-category="agents ai">
+          <div class="project-card-header">
+            <div class="project-top-row">
+              <div class="project-icon-box" style="color: var(--accent-purple);">
+                <i class="fa-solid fa-network-wired"></i>
+              </div>
+              <span class="badge badge-purple">CrewAI Framework</span>
+            </div>
+            <h3 class="project-title">Multi-Agent Event Scheduler</h3>
+            <p class="project-desc">
+              Built an autonomous multi-agent ecosystem utilizing CrewAI where specialized AI agents cooperate seamlessly to schedule complex events. Implemented distinct persona roles (Planner, Researcher, and Quality Checker) coordinating asynchronous tasks.
+            </p>
+            <div class="project-tech-tags">
+              <span class="badge-tech">CrewAI</span>
+              <span class="badge-tech">Python</span>
+              <span class="badge-tech">Multi-Agent</span>
+              <span class="badge-tech">Task Orchestration</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <i class="fa-brands fa-github"></i> View Code
+            </a>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Multi-Agent</span>
+          </div>
+        </div>
+
+        <!-- Project 3: AI-Driven Smart Learning Ecosystem -->
+        <div class="card-glass project-card" data-category="ai">
+          <div class="project-card-header">
+            <div class="project-top-row">
+              <div class="project-icon-box" style="color: var(--accent-cyan);">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <span class="badge badge-cyan">AI &amp; EdTech</span>
+            </div>
+            <h3 class="project-title">AI Smart Learning Ecosystem</h3>
+            <p class="project-desc">
+              Designing an intelligent adaptive educational platform to tailor personalized learning experiences for students. Explores custom AI/ML pacing models, secure authentication mechanisms, and granular role-based access controls.
+            </p>
+            <div class="project-tech-tags">
+              <span class="badge-tech">AI / ML</span>
+              <span class="badge-tech">Personalization</span>
+              <span class="badge-tech">Secure Auth</span>
+              <span class="badge-tech">Python</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <i class="fa-brands fa-github"></i> Project Details
+            </a>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Ongoing</span>
+          </div>
+        </div>
+
+        <!-- Project 4: Hospital Queue Management System -->
+        <div class="card-glass project-card" data-category="software">
+          <div class="project-card-header">
+            <div class="project-top-row">
+              <div class="project-icon-box" style="color: #f97316;">
+                <i class="fa-solid fa-hospital-user"></i>
+              </div>
+              <span class="badge badge-amber">Java Application</span>
+            </div>
+            <h3 class="project-title">Hospital Queue Management System</h3>
+            <p class="project-desc">
+              Engineered a Java-based workflow optimization system to streamline and manage outpatient queues in high-traffic hospital departments. Aims to significantly minimize patient wait times and automate token triage.
+            </p>
+            <div class="project-tech-tags">
+              <span class="badge-tech">Java</span>
+              <span class="badge-tech">OOP</span>
+              <span class="badge-tech">Queue Algorithms</span>
+              <span class="badge-tech">Workflow Optimization</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <i class="fa-brands fa-github"></i> View Repository
+            </a>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">Java</span>
+          </div>
+        </div>
+
+        <!-- Project 5: PaySlip Generation System -->
+        <div class="card-glass project-card" data-category="software">
+          <div class="project-card-header">
+            <div class="project-top-row">
+              <div class="project-icon-box" style="color: #60a5fa;">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+              </div>
+              <span class="badge badge-tech">C++ Application</span>
+            </div>
+            <h3 class="project-title">PaySlip Generation System</h3>
+            <p class="project-desc">
+              Developed a high-performance console application in C++ designed to process employee payroll data. Computes granular salary breakdowns including basic pay, statutory deductions, tax withholdings, and net salary.
+            </p>
+            <div class="project-tech-tags">
+              <span class="badge-tech">C++</span>
+              <span class="badge-tech">Data Structures</span>
+              <span class="badge-tech">Console UI</span>
+              <span class="badge-tech">Payroll Logic</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+              <i class="fa-brands fa-github"></i> View Source
+            </a>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">C++</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- Honors & Hackathons Section                                              -->
+  <!-- ======================================================================== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-award"></i> Recognition</span>
+        <h2 class="section-title">Honors &amp; <span class="gradient-text">Hackathons</span></h2>
+        <p class="section-description">Competitive milestones and academic distinctions earned at the national and collegiate levels.</p>
+      </div>
+
+      <div class="honors-grid">
+
+        <!-- Honor 1: NPTEL Discipline Star -->
+        <a href="assets/certificates/nptel_discipline_star.png" target="_blank" rel="noopener noreferrer" class="card-glass honor-card" style="border-color: rgba(245, 158, 11, 0.35);" title="Click to open NPTEL Discipline Star certificate">
+          <div class="honor-badge-ribbon">
+            <span class="badge badge-amber">Jan - Apr 2026</span>
+          </div>
+          <div class="honor-icon-wrapper amber" style="background: var(--accent-amber-glow); color: var(--accent-amber);">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <h3 class="honor-title">NPTEL Discipline Star</h3>
+          <div class="honor-issuer">IIT Madras &amp; Ministry of Education, Govt. of India</div>
+          <p class="honor-desc">
+            Awarded the prestigious <strong>Certificate of Appreciation</strong> as an <em>NPTEL Discipline Star</em> in Computer Science and Engineering for completing more than 50 weeks of rigorous coursework with high distinction (final score &gt;= 55).
+          </p>
+          <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
+            <span class="badge badge-amber">Certificate of Appreciation</span>
+            <span class="cert-verify-link">Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <!-- Honor 2: ISRO Bharatiya Antariksh Hackathon -->
+        <a href="assets/certificates/isro_antariksh_hackathon_2026.pdf" target="_blank" rel="noopener noreferrer" class="card-glass honor-card" style="border-color: rgba(0, 240, 255, 0.35);" title="Click to open ISRO Hackathon certificate">
+          <div class="honor-badge-ribbon">
+            <span class="badge badge-cyan">National Hackathon 2026</span>
+          </div>
+          <div class="honor-icon-wrapper cyan" style="background: var(--accent-cyan-glow); color: var(--accent-cyan);">
+            <i class="fa-solid fa-shuttle-space"></i>
+          </div>
+          <h3 class="honor-title">Bharatiya Antariksh Hackathon</h3>
+          <div class="honor-issuer">Indian Space Research Organisation (ISRO) &amp; Hack2skill</div>
+          <p class="honor-desc">
+            Awarded the Certificate of Participation for <strong>successful idea submission</strong> in the national space technology challenge, proposing innovative concepts to solve real-world space domain challenges.
+          </p>
+          <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-cyan);">ID: 2026H2S06BAH-P25441</span>
+            <span class="cert-verify-link">Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <!-- Honor 3: Smart India Hackathon Finalist -->
+        <div class="card-glass honor-card">
+          <div class="honor-badge-ribbon">
+            <span class="badge badge-purple">Intracollege Finalist</span>
+          </div>
+          <div class="honor-icon-wrapper purple" style="background: var(--accent-purple-glow); color: var(--accent-purple);">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <h3 class="honor-title">Smart India Hackathon (SIH)</h3>
+          <div class="honor-issuer">National Engineering College</div>
+          <p class="honor-desc">
+            Selected as an Intracollege Finalist for Smart India Hackathon after competing against college-wide engineering teams, ideating technical solutions for high-priority societal problem statements.
+          </p>
+        </div>
+
+        <!-- Honor 4: Botathon 2nd Prize -->
+        <div class="card-glass honor-card">
+          <div class="honor-badge-ribbon">
+            <span class="badge badge-green">2nd Prize Winner</span>
+          </div>
+          <div class="honor-icon-wrapper green" style="background: rgba(16, 185, 129, 0.15); color: var(--accent-green);">
+            <i class="fa-solid fa-medal"></i>
+          </div>
+          <h3 class="honor-title">Botathon Hackathon</h3>
+          <div class="honor-issuer">Robotics &amp; Bot Automation Challenge</div>
+          <p class="honor-desc">
+            Clinched <strong>2nd Prize</strong> in the Botathon competitive challenge for engineering automated bot workflows, demonstrating rapid prototyping, algorithm efficiency, and practical execution.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- Verified Certifications Section                                          -->
+  <!-- ======================================================================== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-stamp"></i> Academic Rigor</span>
+        <h2 class="section-title">Verified <span class="gradient-text">Certificates</span></h2>
+        <p class="section-description">Proctored coursework and verified credentials from premier institutes including IISc Bangalore, IIT Madras, and Coursera. Click any certificate to view it immediately.</p>
+      </div>
+
+      <div class="certifications-grid">
+
+        <!-- Cert 1: Deep Learning (IISc Bangalore) -->
+        <a href="assets/certificates/nptel_deep_learning_elite.pdf" target="_blank" rel="noopener noreferrer" class="card-glass cert-card" title="Click to open Deep Learning certificate">
+          <div>
+            <div class="cert-issuer-badge">
+              <span class="badge badge-cyan">Elite Certification</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Jan - Apr 2026</span>
+            </div>
+            <h3 class="cert-name">Foundations of Deep Learning: Concepts and Applications</h3>
+            <div class="cert-org"><i class="fa-solid fa-building-columns"></i> IISc Bangalore / NPTEL</div>
+          </div>
+          <div class="cert-meta">
+            <span>Score: <strong style="color: var(--accent-cyan);">73% (Elite)</strong></span>
+            <span class="cert-verify-link">Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <!-- Cert 2: Python Joy of Computing (IIT Madras) -->
+        <a href="assets/certificates/nptel_python_joy_elite_silver.pdf" target="_blank" rel="noopener noreferrer" class="card-glass cert-card" title="Click to open NPTEL Elite + Silver certificate">
+          <div>
+            <div class="cert-issuer-badge">
+              <span class="badge badge-silver"><i class="fa-solid fa-medal"></i> Elite + Silver</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Jan - Apr 2025</span>
+            </div>
+            <h3 class="cert-name">The Joy of Computing using Python</h3>
+            <div class="cert-org"><i class="fa-solid fa-building-columns"></i> IIT Madras / NPTEL</div>
+          </div>
+          <div class="cert-meta">
+            <span>Score: <strong style="color: #cbd5e1;">79% (Elite + Silver)</strong></span>
+            <span class="cert-verify-link">Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <!-- Cert 3: Coursera Machine Learning -->
+        <a href="assets/certificates/coursera_machine_learning.pdf" target="_blank" rel="noopener noreferrer" class="card-glass cert-card" title="Click to open Coursera certificate">
+          <div>
+            <div class="cert-issuer-badge">
+              <span class="badge badge-purple">Verified Course</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Dec 2025</span>
+            </div>
+            <h3 class="cert-name">Machine Learning for All</h3>
+            <div class="cert-org"><i class="fa-solid fa-graduation-cap"></i> University of London (Coursera)</div>
+          </div>
+          <div class="cert-meta">
+            <span>ID: <code style="font-size: 0.75rem;">DJNVWDIHPZSS</code></span>
+            <span class="cert-verify-link">Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+        <!-- Cert 4: Infosys GenAI -->
+        <a href="assets/certificates/infosys_generative_ai.pdf" target="_blank" rel="noopener noreferrer" class="card-glass cert-card" title="Click to open Infosys GenAI certificate">
+          <div>
+            <div class="cert-issuer-badge">
+              <span class="badge badge-green">Industry Certified</span>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Dec 2025</span>
+            </div>
+            <h3 class="cert-name">Generative AI for All</h3>
+            <div class="cert-org"><i class="fa-solid fa-briefcase"></i> Infosys Springboard</div>
+          </div>
+          <div class="cert-meta">
+            <span>Verified Credential</span>
+            <span class="cert-verify-link">Open Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- Contact Section                                                          -->
+  <!-- ======================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Let's Talk</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-description">Interested in collaborating on AI projects, multi-agent frameworks, or internship opportunities? Reach out anytime!</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="card-glass contact-info-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 1.5rem;">Contact Information</h3>
+
+          <div class="contact-info-item">
+            <div class="contact-icon-box">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <a href="https://www.linkedin.com/in/kaviniyaa-satish-414a4b320" target="_blank" rel="noopener noreferrer" class="contact-value">
+                linkedin.com/in/kaviniyaa-satish
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon-box">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" class="contact-value">
+                github.com/viniyaa05
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <div class="contact-label">Institution &amp; Location</div>
+              <div class="contact-value">
+                National Engineering College, Tamil Nadu, India
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div>
+              <div class="contact-label">Availability</div>
+              <div class="contact-value" style="color: var(--accent-green);">
+                Open to Internships, Research &amp; AI Projects
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="card-glass contact-form-card">
+          <div id="formStatusAlert" style="display: none; padding: 1rem; border-radius: var(--radius-sm); margin-bottom: 1.5rem; font-size: 0.9rem;"></div>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="formName" class="form-label">Your Name</label>
+              <input type="text" id="formName" name="name" class="form-input" placeholder="e.g. Alex Morgan" required>
+            </div>
+
+            <div class="form-group">
+              <label for="formEmail" class="form-label">Your Email</label>
+              <input type="email" id="formEmail" name="email" class="form-input" placeholder="alex@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="formMessage" class="form-label">Message</label>
+              <textarea id="formMessage" name="message" class="form-textarea" placeholder="Hi Kaviniyaa, I saw your portfolio and would like to discuss..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================== -->
+  <!-- Certificate Modal Dialog                                                 -->
+  <!-- ======================================================================== -->
+  <div class="modal-backdrop" id="certModalBackdrop" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <div id="modalDetails">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================== -->
+  <!-- Footer                                                                   -->
+  <!-- ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        &copy; 2026 <strong>Kaviniyaa A S</strong>. Designed with modern web standards.
+      </div>
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <a href="https://github.com/viniyaa05" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none; font-size: 1.1rem;">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kaviniyaa-satish-414a4b320" target="_blank" rel="noopener noreferrer" style="color: var(--text-muted); text-decoration: none; font-size: 1.1rem;">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#hero" style="color: var(--accent-cyan); font-size: 0.85rem; font-weight: 600; text-decoration: none; margin-left: 0.5rem;">
+          Back to Top <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
